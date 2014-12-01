@@ -1,7 +1,6 @@
 /** @jsx React.DOM */
 
 jest.dontMock('../components/CheckboxWithLabel.js');
-
 describe('CheckboxWithLabel', function () {
   it('Changes the text after click', function () {
     var React = require('react');
