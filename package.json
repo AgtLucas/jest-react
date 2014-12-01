@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/AgtLucas/jest-react",
   "devDependencies": {
-    "jest-cli": "^0.1.18",
-    "react-tools": "^0.12.1"
+    "jest-cli": "^0.1.18"
   },
   "dependencies": {
-    "react": "^0.12.1"
+    "react": "^0.12.1",
+    "react-tools": "^0.12.1"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": ["<rootDir>/node_modules/react"]
   }
 }
