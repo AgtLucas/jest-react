@@ -1,0 +1,19 @@
+{
+  "name": "jest-react",
+  "version": "1.0.0",
+  "description": "jest-react ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/jest-react.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/jest-react/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/jest-react"
+}
