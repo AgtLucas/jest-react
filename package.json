@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/jest-react/issues"
   },
-  "homepage": "https://github.com/AgtLucas/jest-react"
+  "homepage": "https://github.com/AgtLucas/jest-react",
+  "devDependencies": {
+    "jest-cli": "^0.1.18",
+    "react-tools": "^0.12.1"
+  }
 }
