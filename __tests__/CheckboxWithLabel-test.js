@@ -21,6 +21,6 @@ describe('CheckboxWithLabel', function () {
     var input = TestUtils.findRenderedDOMComponentWithTag(
       checkbox, 'input');
     TestUtils.Simulate.change(input);
-    expect(label.getDOMNode().textContent).toEqual('On');
+    expect(label.getDOMNode().textContent).toEqual('Off');
   });
 });
